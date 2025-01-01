@@ -25,7 +25,7 @@ body {
   grid-template-areas:
     "top-menu top-menu"
     "banner content";
-  height: 100vh;
+  height: 90vh;
   overflow: hidden;
 }
 
