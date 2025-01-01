@@ -139,6 +139,7 @@ body {
   flex: 1;
   overflow-y: auto;
   display: none;
+  font-size: 1rem;
 }
 
 .active-section {
@@ -167,7 +168,6 @@ body {
     "column1 column2"
     "bottom bottom"; /* Second row spans both columns */
   gap: 30px; /* Space between grid items */
-  font-size: 1rem;
 }
 
 .home-column-1 {
