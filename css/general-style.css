@@ -30,7 +30,7 @@ body {
     "top-menu top-menu"
     "banner content";
   height: 100vh;
-  overflow: hidden;
+    overflow: hidden;
 }
 
 /* Top menu styling */
@@ -43,7 +43,7 @@ body {
   align-items: center;
   padding: 0 20px;
   z-index: 1000;
-  font-size: 0.5rem;
+  font-size: 1rem;
 }
 
 .top-menu a {
@@ -139,7 +139,6 @@ body {
   flex: 1;
   overflow-y: auto;
   display: none;
-  font-size: 1rem;
 }
 
 .active-section {
@@ -168,22 +167,25 @@ body {
     "column1 column2"
     "bottom bottom"; /* Second row spans both columns */
   gap: 30px; /* Space between grid items */
+  font-size: 0.5rem;
 }
 
 .home-column-1 {
   grid-area: column1;
   text-align: justify !important;
+  font-size: 0.7rem;
 }
 
 .home-column-2 {
   grid-area: column2;
   padding-left: 60px;
-
+  font-size: 0.9rem;
 }
 
 .home-row-bottom {
   grid-area: bottom;
   text-align: justify !important;
+  font-size: 1.1rem;
 }
 
 ul li {
