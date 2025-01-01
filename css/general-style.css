@@ -141,6 +141,10 @@ body {
   display: none;
 }
 
+.content p {
+  font-size: 0.5rem;
+}
+
 .active-section {
   display: block;
 }
