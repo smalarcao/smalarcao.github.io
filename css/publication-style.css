@@ -18,7 +18,7 @@
 
 /* Title of the publication */
 .publication h3 {
-  margin-top: 0; /* Prevent content overlap with the icon */  
+  margin-top: 10px; 
   font-size: 1rem;
   font-weight: bold;
   color: var(--var-dark-gray);
