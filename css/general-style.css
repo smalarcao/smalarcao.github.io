@@ -152,6 +152,10 @@ body {
   display: block;
 }
 
+.awards{
+  color: var(--var-yellow);
+}
+
 .home-grid {
   display: grid;
   grid-template-columns: 2fr 1fr; /* Two equal-width columns for the first row */
