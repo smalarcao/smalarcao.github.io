@@ -45,6 +45,9 @@ body {
   padding: 0 20px;
   z-index: 1000;
   font-size: 1rem;
+  position: fixed; /* Always on top for mobile */
+  width: 100%;
+  top: 0;
 }
 
 .top-menu a {
@@ -70,10 +73,9 @@ body {
   text-align: center;
   align-items: center;
   padding: 60px 20px 20px 20px;
-  position: relative;
-  width: 250px;
-  height: 100%;
+  width: 100%;
   z-index: 100;
+  margin-top: 50px; /* Added margin to account for the fixed top menu */
 }
 
 .banner img {
@@ -138,7 +140,7 @@ body {
   flex: 1;
   overflow-y: auto;
   display: none;
-  height: 100vh;
+  height: calc(100vh - 50px - 60px); /* Subtract height of the fixed menu and banner */
   overflow-y: scroll;
 }
 
@@ -214,7 +216,7 @@ ul li {
   .banner {
     width: 100%;
     padding: 30px 20px;
-    margin-bottom: 20px; /* Added space between banner and content */
+    margin-top: 50px; /* Push banner down below the fixed menu */
   }
 
   .banner img {
@@ -223,7 +225,8 @@ ul li {
 
   .content {
     padding: 20px;
-    height: auto; /* Allows content to grow beyond the viewport */
+    height: calc(100vh - 50px - 60px); /* Fill the remaining height */
+    overflow-y: scroll; /* Ensure content is scrollable */
   }
 
   .social-icons {
