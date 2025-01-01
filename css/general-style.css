@@ -26,7 +26,7 @@ body {
     "top-menu top-menu"
     "banner content";
   height: 100vh;
-  overflow: hidden;
+    overflow: hidden;
 }
 
 /* Top menu styling */
@@ -67,7 +67,7 @@ body {
   padding: 60px 20px 20px 20px;
   position: relative;
   width: 250px;
-  height: 90%;
+  height: 100%;
   z-index: 100;
 }
 
@@ -87,7 +87,7 @@ body {
 .banner .position {
   font-size: 1rem;
   font-weight: lighter;
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -163,6 +163,7 @@ body {
     "column1 column2"
     "bottom bottom"; /* Second row spans both columns */
   gap: 30px; /* Space between grid items */
+  font-size: 1rem;
 }
 
 .home-column-1 {

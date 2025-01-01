@@ -19,14 +19,14 @@
 /* Title of the publication */
 .publication h3 {
   margin-top: 0; /* Prevent content overlap with the icon */  
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   color: var(--var-dark-gray);
 }
 
 /* Abstract styling */
 .publication .abstract {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: var(--var-medium-gray);
   text-align: justify !important;
   font-style: normal !important;
@@ -34,27 +34,27 @@
 
 /* Author styling */
 .publication .author {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   font-weight: regular;
   color: var(--var-light-gray);
 }
 
 /* Conference or Journal styling */
 .publication .acronym {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: bold;
   color: var(--var-light-gray);
 }
 
 .publication .venue, .year, .doi {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: normal;
   color: var(--var-light-gray);
 }
 
 .publication .award-text {
   text-align: right;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   font-weight: lighter;
   color: var(--var-light-gray);
 }
