@@ -30,7 +30,7 @@ body {
     "top-menu top-menu"
     "banner content";
   height: 100vh;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 /* Top menu styling */
@@ -91,7 +91,7 @@ body {
 .banner .position {
   font-size: 1rem;
   font-weight: lighter;
-  margin-top: 10px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -103,7 +103,7 @@ body {
 .banner .contact{
   font-size: 0.85rem;
   font-weight: lighter;
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: left;
   color: var(--var-very-light-gray);
 }
@@ -115,7 +115,7 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 40px;
+  margin-top: auto;
 }
 
 .social-icons a {
@@ -141,8 +141,8 @@ body {
   display: none;
 }
 
-.content p {
-  font-size: 0.5rem;
+.content p { /*change about me*/
+  font-size: 0.8rem;
 }
 
 .active-section {
@@ -171,27 +171,24 @@ body {
     "column1 column2"
     "bottom bottom"; /* Second row spans both columns */
   gap: 30px; /* Space between grid items */
-  font-size: 0.5rem;
 }
 
 .home-column-1 {
   grid-area: column1;
   text-align: justify !important;
-  font-size: 0.7rem;
 }
 
 .home-column-2 {
   grid-area: column2;
   padding-left: 60px;
-  font-size: 0.9rem;
 }
 
 .home-row-bottom {
   grid-area: bottom;
   text-align: justify !important;
-  font-size: 1.1rem;
 }
 
 ul li {
-    margin-bottom: 10px;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
 }
