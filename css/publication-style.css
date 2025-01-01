@@ -2,7 +2,7 @@
 .publication {
   position: relative; /* Required for absolute positioning within the card */
   background-color: var(--var-very-light-gray);
-  opacity: 0.5;
+  opacity: 0.25;
   border: 1px solid #ddd;  /* Light border to match the website's soft appearance */
   border-radius: 12px;
   padding: 5px 25px 5px 25px;
