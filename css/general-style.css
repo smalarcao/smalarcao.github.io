@@ -115,7 +115,7 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: auto;
+  margin-top: 40px;
 }
 
 .social-icons a {
@@ -142,7 +142,7 @@ body {
 }
 
 .content p { /*change about me*/
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .active-section {
@@ -189,6 +189,6 @@ body {
 }
 
 ul li {
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin-bottom: 10px;
 }
