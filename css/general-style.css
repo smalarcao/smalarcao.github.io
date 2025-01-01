@@ -109,8 +109,6 @@ body {
   color: var(--var-very-light-gray);
 }
 
-
-
 /* Social icons styling */
 .social-icons {
   display: flex;
@@ -140,6 +138,8 @@ body {
   flex: 1;
   overflow-y: auto;
   display: none;
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 .content p { /*change about me*/
@@ -214,6 +214,7 @@ ul li {
   .banner {
     width: 100%;
     padding: 30px 20px;
+    margin-bottom: 20px; /* Added space between banner and content */
   }
 
   .banner img {
@@ -222,6 +223,7 @@ ul li {
 
   .content {
     padding: 20px;
+    height: auto; /* Allows content to grow beyond the viewport */
   }
 
   .social-icons {
