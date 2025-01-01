@@ -72,7 +72,7 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Align to the top */
+  justify-content: flex-start;
   text-align: center;
   align-items: center;
   padding: 60px 20px 20px 20px;
@@ -98,21 +98,20 @@ body {
 .banner .position {
   font-size: 1rem;
   font-weight: lighter;
-  margin-top: 40px;
+  margin-top: auto;
   text-align: center;
 }
 
 .banner .position a {
-  color: var(--var-yellow); /* Same yellow as menu */
+  color: var(--var-yellow);
   text-decoration: none;
 }
 
 .banner .contact{
   font-size: 0.85rem;
   font-weight: lighter;
-  margin-top: 60px;
+  margin-top: auto;
   text-align: left;
-  #padding-left: 20px;
   color: var(--var-very-light-gray);
 }
 
@@ -137,7 +136,7 @@ body {
 }
 
 .social-icons a:hover {
-  color: var(--var-yellow); /* Same yellow as menu */
+  color: var(--var-yellow);
 }
 
 /* Content styling */
