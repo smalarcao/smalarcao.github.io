@@ -1,5 +1,6 @@
 
 .publication {
+  position: relative; /* Required for absolute positioning within the card */
   background-color: var(--var-very-light-gray); 
   border: 1px solid #ddd;  /* Light border to match the website's soft appearance */
   border-radius: 12px;
@@ -15,8 +16,25 @@
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
+.award-icon {
+  position: absolute;
+  top: -10px; /* Adjusted to place the icon slightly outside the card */
+  right: -10px; /* Adjusted to place the icon slightly outside the card */
+  font-size: 2rem; /* Adjust size as needed */
+  #width: 15px;
+  #heigth: 20px;
+  color: black;
+  background-color: var(--var-yellow); /* Optional: add background for better visibility */
+  border-top: 1px solid #ddd;  /* Light border to match the website's soft appearance */
+  border-right: 1px solid #ddd;  /* Light border to match the website's soft appearance */
+  border-radius: 80%; /* Optional: make it circular */
+  padding: 10px; /* Optional: space inside the background */
+  z-index: 10; /* Ensures it appears above other elements */
+}
+
 /* Title of the publication */
 .publication h3 {
+  margin-top: 0; /* Prevent content overlap with the icon */  
   font-size: 1.2rem;
   font-weight: bold;
   color: var(--var-dark-gray);
@@ -47,6 +65,13 @@
 .publication .venue, .year, .doi {
   font-size: 0.9rem;
   font-weight: normal;
+  color: var(--var-light-gray);
+}
+
+.publication .award {
+  text-align: right;
+  font-size: 0.8rem;
+  font-weight: lighter;
   color: var(--var-light-gray);
 }
 

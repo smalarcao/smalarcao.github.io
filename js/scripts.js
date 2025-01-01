@@ -90,8 +90,13 @@ function renderPublications(publications) {
     const acronym = pub.getElementsByTagName('acronym')[0].textContent;
     const doi = pub.getElementsByTagName('doi')[0].textContent;
 
+    // Check for the presence of an award tag
+    const awardTag = pub.getElementsByTagName('award')[0];
+    const award = awardTag ? awardTag.textContent : '';
+
     publicationList.innerHTML += `
       <div class="publication">
+        ${award ? '<i class="fa-solid fa-award award-icon"></i>' : ''}
         <h3>${title}</h3>
         <p class="abstract">${abstract}</p>
         <p class="author">${author}</p>
@@ -100,14 +105,16 @@ function renderPublications(publications) {
            <span class="venue">${venue}</span>
            <span class="separator"> &#8226;</span> 
            <span class="year">${year}</span>
-           <span class="separator"> &#8226;</span>
+           <span class="separator"> &#8226;</span> 
            <span class="doi"> DOI:</span> 
            <a href=${doi} target="_blank"><i class="doi">${doi}</i></a>
         </p>
+        ${award ? `<p class="award">${award}</p>` : ''}
       </div>
     `;
   }
 }
+
 
 // Function to set active pagination button
 function setActivePaginationButton(label) {

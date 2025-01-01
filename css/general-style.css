@@ -1,28 +1,17 @@
 /* General Website Styles */
-@property --var-yellow {
-  syntax: "<color>";
-  inherits: false;
-  initial-value: #FFD700; /*#dab25d; #FFD700;*/
-}
-@property --var-very-light-gray {
-  syntax: "<color>";
-  inherits: false;
-  initial-value: #f9f9f9;
-}
-@property --var-light-gray {
-  syntax: "<color>";
-  inherits: false;
-  initial-value: #777;
-}
-@property --var-medium-gray {
-  syntax: "<color>";
-  inherits: false;
-  initial-value: #555;
-}
-@property --var-dark-gray {
-  syntax: "<color>";
-  inherits: false;
-  initial-value: #333;
+@property --var-yellow { syntax: "<color>"; inherits: false; initial-value: #FFD700; }
+@property --var-very-light-gray { syntax: "<color>"; inherits: false; initial-value: #f9f9f9; }
+@property --var-light-gray { syntax: "<color>"; inherits: false; initial-value: #777; }
+@property --var-medium-gray { syntax: "<color>"; inherits: false; initial-value: #555; }
+@property --var-dark-gray { syntax: "<color>"; inherits: false; initial-value: #333; }
+
+/*Older browsers*/
+:root {
+  --var-yellow: #FFD700;
+  --var-very-light-gray: #f9f9f9;
+  --var-light-gray: #777;
+  --var-medium-gray: #555;
+  --var-dark-gray: #333;
 }
 
 /* Global Reset */
@@ -152,8 +141,18 @@ body {
   display: block;
 }
 
-.awards{
-  color: var(--var-yellow);
+.awards {
+  background-color: var(--var-yellow);
+  color: black;
+  padding: 2px;
+  margin-left: 2px;
+  #display: flex;
+  #align-items: center;
+  #font-size: 16px;
+}
+
+.awards i {
+  margin-right: 5px;
 }
 
 .home-grid {
