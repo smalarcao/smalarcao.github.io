@@ -109,7 +109,7 @@ function renderPublications(publications) {
            <span class="doi"> DOI:</span> 
            <a href=${doi} target="_blank"><i class="doi">${doi}</i></a>
         </p>
-        ${award ? `<p class="award">${award}</p>` : ''}
+        ${award ? `<p class="award-text">${award}</p>` : ''}
       </div>
     `;
   }
