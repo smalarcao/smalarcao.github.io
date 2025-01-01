@@ -193,3 +193,17 @@ ul li {
   font-size: 0.85rem;
   margin-bottom: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  .box{
+    display: block;
+  }
+
+  .banner {
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
