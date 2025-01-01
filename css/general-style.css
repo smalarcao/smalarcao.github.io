@@ -30,7 +30,7 @@ body {
     "top-menu top-menu"
     "banner content";
   height: 100vh;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 /* Top menu styling */
@@ -43,7 +43,7 @@ body {
   align-items: center;
   padding: 0 20px;
   z-index: 1000;
-  font-size: 1rem;
+  font-size: 0.5rem;
 }
 
 .top-menu a {
