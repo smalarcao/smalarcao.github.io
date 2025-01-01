@@ -72,13 +72,13 @@
     </publication>
 
     <publication>
-        <title></title>
-        <author></author>
+        <title>Emotions Recognition Using EEG Signals: A Survey</title>
+        <author>Soraia M. Alarcão and Manuel J. Fonseca</author>
         <year>2019</year>
-        <abstract></abstract>
-        <journal></journal>
-        <acronym></acronym>
-        <doi></doi>
+        <abstract>Emotions have an important role in daily life, not only in human interaction, but also in decision-making processes, and in the perception of the world around us. Due to the recent interest shown by the research community in establishing emotional interactions between humans and computers, the identification of the emotional state of the former became a need. This can be achieved through multiple measures, such as subjective self-reports, autonomic and neurophysiological measurements. In the last years, Electroencephalography (EEG) received considerable attention from researchers, since it can provide a simple, cheap, portable, and ease-to-use solution for identifying emotions. In this paper, we present a survey of the neurophysiological research performed from 2009 to 2016, providing a comprehensive overview of the existing works in emotion recognition using EEG signals. We focus our analysis in the main aspects involved in the recognition process (e.g., subjects, features extracted, classifiers), and compare the works per them. From this analysis, we propose a set of good practice recommendations that researchers must follow to achieve reproducible, replicable, well-validated and high-quality results. We intend this survey to be useful for the research community working on emotion recognition through EEG signals, and in particular for those entering this field of research, since it offers a structured starting point.</abstract>
+        <journal>IEEE Transactions on Affective Computing, 10 (3), pp. 374-393</journal>
+        <acronym>TAC</acronym>
+        <doi>https://doi.org/10.1109/TAFFC.2017.2714671</doi>
         <award>TAC MOST CITED PAPER AWARD</award>
     </publication>
 
