@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publications>
+    <publication>
+        <title>The use of assistive technology to promote practical skills in persons with autism spectrum disorder and intellectual disabilities: A systematic review</title>
+        <author>Aija Klavina, Patricia Pérez-Fuster, Jo Daems, Cecilie N. Lyhne, Eglantina Dervishi, Zada Pajalic, Tone Øderud, Kristin S. Fuglerud, Silvana Markovska-Simoska, Tomasz Przybyla, Michal Klichowski, Gregor Stiglic, Egija Laganovska, Soraia M. Alarcão, Alan H. Tkaczyk, and Carla Sousa</author>
+        <year>2024</year>
+        <abstract>Persons with autism spectrum disorder (ASD) and/or intellectual disability (ID) have difficulties in planning, organising and coping with change, which impedes the learning of daily living skills (DLSs), social participation and self-management across different environmental settings. Assistive technologies (ATs) is a broad term encompassing devices and services designed to support individuals with disabilities, and if used in a self-controlled manner, they may contribute inclusion in all domains of participation. This comprehensive literature review aims to critically assess and unify existing research that investigates the use of assistive technology within the practical domain for individuals with ASD and/or ID. The 18 relevant studies included in this review highlighted the benefits of AT for social participation and independence in daily activities of individuals with ASD and/or ID. Professionals working with this target group should be knowledgeable of the speedy progress of AT products and the potential of persons with ASD and/or ID to use mainstream devices to meet their individual needs. This awareness provides an opportunity to advocate for the universal benefits of AT for everyone. Technologies such as virtual reality, mobile applications and interactive software have been shown to improve DLSs, communication and social interaction. These tools offer engaging, user-friendly platforms that address the specific needs of these individuals, enhancing their learning and independence.</abstract>
+        <journal>DIGITAL HEALTH, 10</journal>
+        <acronym>SAGE DH</acronym>
+        <doi>https://doi.org/10.1177/20552076241281260</doi>
+    </publication>
+
+    <publication>
+        <title>metaFERA: a meta-framework for creating emotion recognition frameworks for physiological signals</title>
+        <author>João Oliveira, Soraia M. Alarcão, Teresa Chambel, and Manuel J. Fonseca </author>
+        <year>2024</year>
+        <abstract>Recognizing emotions from physiological signals has proven to be important in various scenarios. To assist in developing emotion recognizers, software frameworks and toolboxes have emerged, offering ready-to-use components. However,these have limitations regarding the type of physiological signals supported, the recognition steps covered, or the acquisition of multiple physiological signals. This paper presents metaFERA, an architectural meta-framework for creating software frameworks for end-to-end emotion recognition from physiological signals. The modularity and flexibility of the meta-framework and the resulting frameworks allow the fast prototyping of emotion recognition systems and experiments to test and validate new algorithms. To that end, metaFERA offers: (i) a set of pre-configured blocks to which we can add behavior to create framework components; (ii) an easy way to add behavior to the pre-configured blocks; (iii) a channel-based communication mechanism that transparently and efficiently supports the exchange of information between components; (iv) a simple and easy way to use and link components from a resulting framework to create applications. Additionally, we provide a set of Web services, already configured, to make the resulting recognition systems available as a service. To validate metaFERA, we created a framework for Electrodermal Activity, an emotion recognizer to identify high/low arousal using the aforementioned framework, and a layer to offer the recognizer as a service.</abstract>
+        <journal>Multimedia Tools and Applications, 83, pp. 9785–9815</journal>
+        <acronym>MTAP</acronym>
+        <doi>https://doi.org/10.1007/s11042-023-15249-5</doi>
+    </publication>
+
+    <publication>
+        <title>Annotate Smarter, Not Harder: Using Active Learning to Reduce Emotional Annotation Effort</title>
+        <author>Soraia M. Alarcão, Vânia Mendonça, Claúdia Sevivas, Carolina Maruta, and Manuel J. Fonseca</author>
+        <year>2023</year>
+        <abstract>The success of supervised models for emotion recognition on images heavily depends on the availability of images properly annotated. Although millions of images are presently available, only a few are annotated with reliable emotional information. Current emotion recognition solutions either use large amounts of weakly-labeled web images, which often contain noise that is unrelated to the emotions of the image, or transfer learning, which usually results in performance losses. Thus, it would be desirable to know which images would be useful to be annotated to avoid an extensive annotation effort. In this paper, we propose a novel approach based on active learning to choose which images are more relevant to be annotated. Our approach dynamically combines multiple active learning strategies and learns the best ones (without prior knowledge of the best ones). Experiments using nine benchmark datasets revealed that: (i) active learning allows to reduce the annotation effort, while reaching or surpassing the performance of a supervised baseline with as little as 3% to 18% of the baseline's training set, in classification tasks; (ii) our online combination of multiple strategies converges to the performance of the best individual strategies, while avoiding the experimentation overhead needed to identify them.</abstract>
+        <journal>IEEE Transactions on Affective Computing, 15 (3), pp. 1213-1227</journal>
+        <acronym>TAC</acronym>
+        <doi>https://doi.org/10.1109/TAFFC.2023.3329563</doi>
+    </publication>
+
+    <publication>
+        <title>The Limitations of Current Similarity-Based Objective Metrics in the Context of Human-Agent Interaction Applications</title>
+        <author>Armand Deffrennes, Lucile Vincent, Marie Pivette, Kevin El Haddad, Jacqueline Deanna Bailey, Monica Perusquia-Hernandez, Soraia M. Alarcão, and Thierry Dutoit</author>
+        <year>2023</year>
+        <abstract>There are two main ways of evaluating a model generating an interactive virtual agent’s expressions. The first is through subjective perception tests, and the second is through objective metrics, which usually compare the model’s generated expressions to a test set of expressions considered the ground truth. In this work, we argue that using such objective metrics comparing generated expressions, to expressions contained in a test set limits the accuracy of the evaluation by failing to consider expressions that are different from the test set, but are still valid and well-perceived by users. We support this argument through experiments showing that different expression sequences are well perceived as listening responses to the same speaker’s utterance.</abstract>
+        <conference>Proceedings of the Companion Publication of the International Conference on Multimodal Interaction, pp. 81-85</conference>
+        <acronym>ICMI'23 Companion</acronym>
+        <doi>https://doi.org/10.1145/3610661.3617155</doi>
+    </publication>
+
+    <publication>
+        <title>That's AWESOME: Awareness While Experiencing and Surfing On Movies through Emotions</title>
+        <author>Teresa Chambel, Patrícia Arriaga, Manuel J. Fonseca, Thibault Langlois, Octavian Postolache, Cláudia Ribeiro, Nuno Piçarra, Soraia M. Alarcão, and Ana Jorge</author>
+        <year>2023</year>
+        <abstract>This paper presents the AWESOME research project: Awareness While Experiencing and Surfing On Movies through Emotions, which focused on the role of emotions in movies, aiming to enhance viewers' emotional awareness while searching, accessing and watching movies. The project addressed challenges such as capturing viewers' emotional responses, and analyzing movie content based on subtitles, audio, and video. Through a multimethod approach and combining distinct measurements, the project gained insights into viewers' emotions, developed algorithms for estimating emotions, and created interactive tools to annotate and access movies based on emotions. User satisfaction with the tools provided further evidence about the relevance of taking emotions into account and providing an effective support. Through this paper, we present an overview about the motivations underlying the AWESOME project, its main goals, tasks and contributions, and highlight directions for future work.</abstract>
+        <conference>Proceedings of the 2023 ACM International Conference on Interactive Media Experiences Workshops, pp. 110-117</conference>
+        <acronym>IMXw'23:</acronym>
+        <doi>https://doi.org/10.1145/3604321.3604330</doi>
+    </publication>
+
+    <publication>
+        <title>ExpertosLF: dynamic late fusion of CBIR systems using online learning with relevance feedback</title>
+        <author>Soraia M. Alarcão, Vânia Mendonça, Carolina Maruta, and Manuel J. Fonseca</author>
+        <year>2023</year>
+        <abstract>One of the main challenges in CBIR systems is to choose discriminative and compact features, among dozens, to represent the images under comparison. Over the years, a great effort has been made to combine multiple features, mainly using early, late, and hierarchical fusion techniques. Unveiling the perfect combination of features is highly domain-specific and dependent on the type of image. Thus, the process of designing a CBIR system for new datasets or domains involves a huge experimentation overhead, leading to multiple fine-tuned CBIR systems. It would be desirable to dynamically find the best combination of CBIR systems without needing to go through such extensive experimentation and without requiring previous domain knowledge. In this paper, we propose ExpertosLF, a model-agnostic interpretable late fusion technique based on online learning with expert advice, which dynamically combines CBIR systems without knowing a priori which ones are the best for a given domain. At each query, ExpertosLF takes advantage of user’s feedback to determine each CBIR contribution in the ensemble for the following queries. ExpertosLF produces an interpretable ensemble that is independent of the dataset and domain. Moreover, ExpertosLF is designed to be modular, and scalable. Experiments on 13 benchmark datasets from the Biomedical, Real, and Sketch domains revealed that: (i) ExpertosLF surpasses the performance of state of the art late-fusion techniques; (ii) it successfully and quickly converges to the performance of the best CBIR sets across domains without any previous domain knowledge (in most cases, fewer than 25 queries need to receive human feedback).</abstract>
+        <journal>Multimedia Tools and Applications, 82, pp. 11619–11661</journal>
+        <acronym>MTAP</acronym>
+        <doi>https://doi.org/10.1007/s11042-022-13119-0</doi>
+    </publication>
+
+    <publication>
+        <title></title>
+        <author></author>
+        <year>2021</year>
+        <abstract></abstract>
+        <journal></journal>
+        <acronym></acronym>
+        <doi></doi>
+    </publication>
+
+    <publication>
+        <title></title>
+        <author></author>
+        <year>2019</year>
+        <abstract></abstract>
+        <journal></journal>
+        <acronym></acronym>
+        <doi></doi>
+    </publication>
+
+    <publication>
+        <title>Identifying Emotions in Images from Valence and Arousal Ratings</title>
+        <author>Soraia M. Alarcão and Manuel J. Fonseca</author>
+        <year>2018</year>
+        <abstract>Experimental studies of emotion usually use datasets of normative emotional pictures to elicit specific emotional responses in human subjects. However, most of these datasets are not annotated with discriminating and reliable emotional tags, having only valence and arousal ratings for each image. Complementing this information with emotional tags would enrich the datasets, by increasing the number of annotated images available and consequently reducing the use of the same images in consecutive studies. This paper describes a multi-label recognizer that combines a Fuzzy approach with a Random Forest classifier to recognize both polarity and discrete emotions elicited by an image, using its valence and arousal ratings. Polarity indicates whether the emotional content of the image is negative, neutral, or positive, whereas emotions provide a more detailed description of the emotional content conveyed by the image. We evaluated our multi-label recognizer using pictures from four existing datasets containing images annotated with emotional content and valence and arousal ratings. Experimental results show that our recognizer is able to identify polarity with a precision of 84.8%, single emotions with 80.7%, and two emotions with 81.1%. Our recognizer can be useful to researchers who want to identify polarity and/or emotions from stimuli annotated with valence and arousal ratings. In particular, it can be used to automatically annotate with emotional tags already existent image datasets, avoiding the costs of manually annotating them with human subjects.</abstract>
+        <journal>Multimedia Tools and Applications, 77 (13), pp. 17413-17435</journal>
+        <acronym>MTAP</acronym>
+        <doi></doi>
+    </publication>
+
+
+    <publication>
+        <title>Enriching Image Datasets with Unrestrained Emotional Data: A Study with Users</title>
+        <author>Soraia M. Alarcão and Manuel J. Fonseca</author>
+        <year>2018</year>
+        <abstract>Elicitation of emotions is typically done through the presentation of emotionally salient material, like images or videos, thus requiring reliably annotated datasets. Although there are datasets with emotional information, these only describe either emotional polarities or discrete emotions. The only available dataset with both types of information restrained the participants during the study by separating a priori the images according to their polarity (positive or negative). In this paper, we describe an unrestrained study with 60 participants, where we asked them to rate the polarities and discrete emotions elicited by a set of images. The analysis of the emotional ratings made by the users revealed the most frequent correlations between the basic emotions. Furthermore, the analysis of the ratings’ agreement among participants and existing datasets shows that our results are aligned with the existing ones. As a result of our study, we make available to researchers a more informative picture dataset annotated with emotional polarities and multiple emotions, as a complement to existing datasets.</abstract>
+        <journal>Journal of Visual Languages and Sentient Systems</journal>
+        <acronym>VLSS</acronym>
+        <doi></doi>
+    </publication>
+
+    <publication>
+        <title>Dominant Colors as Image Content Descriptors: A Study with Users</title>
+        <author>Soraia M. Alarcão, Ruben Pavão, and Manuel J. Fonseca</author>
+        <year>2018</year>
+        <abstract>Image content are typically described using low level features such as color, texture, shape, or a combination of the previous. A particular use of color is the identification of the dominant colors in images to describe its content, for image retrieval, for instance. In this paper, we present a study with users to verify if the dominant colors can be used as image content descriptors. From the study we identified the dominant and the search colors users associated to a set of images. We supplemented this information with gaze coordinates, collected with an affordable eye tracker, to register the regions at which people looked while identifying colors in the images. The analysis of the data revealed that users used a small set of color names, and that the colors used for searching were similar to those considered dominant, validating the use of dominant colors as image descriptors. As a result of the study, we make available a dataset of 100 images annotated with their dominant colors, the colors that users would use to search for them, and the areas where they looked while identifying both types of colors.</abstract>
+        <journal>Journal of Visual Languages and Sentient Systems</journal>
+        <acronym>VLSS</acronym>
+        <doi></doi>
+    </publication>
+
+    <publication>
+        <title>Enriching IAPS and GAPED Image Datasets with Unrestrained Emotional Data</title>
+        <author>Soraia M. Alarcão and Manuel J. Fonseca</author>
+        <year>2018</year>
+        <abstract>Elicitation of emotions is typically done through the presentation of emotionally salient material, like images or videos, thus requiring reliably annotated datasets. Although there are datasets with emotional information, these only describe either emotional polarities or discrete emotions. The only available dataset with both types of information restrained the participants during the study by separating a priori the images according to their polarity (positive or negative). In this paper, we describe an unrestrained study with 60 participants, where we asked them to rate the polarities and discrete emotions elicited by a set of images. The analysis of the emotional ratings made by the users revealed the most frequent correlations between the basic emotions. Furthermore, the analysis of the ratings’ agreement among participants and existing datasets shows that our results are aligned with the existing ones. As a result of our study, we make available to researchers a more informative picture dataset annotated with emotional polarities and multiple emotions, as a complement to existing datasets.</abstract>
+        <conference>Proceedings of the International DMS Conference on Visualization and Visual Languages</conference>
+        <acronym>DMSVIVA'18</acronym>
+        <doi></doi>
+    </publication>
+
+    <publication>
+        <title>Where do People Look while Identifying Colors in Images</title>
+        <author>Soraia M. Alarcão, Ruben Pavão, and Manuel J. Fonseca</author>
+        <year>2018</year>
+        <abstract>In this paper, we present a study with users to identify the dominant and the search colors users associate to a set of images. We supplement this information with gaze coordinates, collected with an affordable eye tracker, to register the regions at which people looked while identifying colors in the images. The analysis of the data revealed that users use a small set of color names, and the colors used for searching were similar to those considered dominant. Moreover, there is no strong correlation between the regions to which people looked and the colors they identified. As a result of the study, we make available a dataset of 100 images annotated with their dominant colors, the colors that users would use to search for them, and the areas where they looked while identifying both types of colors</abstract>
+        <conference>Proceedings of the International DMS Conference on Visualization and Visual Languages</conference>
+        <acronym>DMSVIVA'18</acronym>
+        <doi></doi>
+    </publication>
+    
+    <publication>
+        <title>Reminiscence therapy improvement using emotional information</title>
+        <author>Soraia M. Alarcão</author>
+        <year>2017</year>
+        <abstract>Dementia is characterized by the loss of mental functions. Reminiscence therapy, where caregivers interact with patients using their past information (e.g. photos), is the most popular psychosocial intervention in dementia care. Although there are some technological solutions, these are few, and produce a collection of data that remains unchanged, regardless of the emotional reactions throughout sessions. Our goal is to develop a solution that delivers personalized reminiscence therapy at patient's home, being able to adapt the session if the patient experiences negative emotional reactions (using physiological signals). In these situations, our system will select another image to be shown using both emotional information of the images and life information of the patient, with the aim of mitigating negative experiences, while trying to avoid aggressive behaviors that informal caregivers (family) may have to deal with. Our contributions include identifying, developing, and evaluating techniques to identify emotions both from visual stimuli and physiological data.</abstract>
+        <conference>Proceedings of the International Conference on Affective Computing and Intelligent Interaction</conference>
+        <acronym>ACII'17</acronym>
+        <doi></doi>
+    </publication>
+</publications>

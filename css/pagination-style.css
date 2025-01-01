@@ -1,0 +1,29 @@
+/* Pagination styling */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: var(--var-yellow);
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination button:hover,
+.pagination button.active-page-button {
+  background-color: black;
+  color: var(--var-yellow);
+  font-weight: bold;
+}
+
+.pagination button.active-page-button {
+  background-color: black;
+  color: var(--var-yellow);
+}

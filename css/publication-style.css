@@ -1,0 +1,73 @@
+
+.publication {
+  background-color: var(--var-very-light-gray); 
+  border: 1px solid #ddd;  /* Light border to match the website's soft appearance */
+  border-radius: 12px;
+  padding: 5px 25px 5px 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 10px;
+}
+
+/* Hover effect on the publication card */
+.publication:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Title of the publication */
+.publication h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--var-dark-gray);
+}
+
+/* Abstract styling */
+.publication .abstract {
+  font-size: 0.9rem;
+  color: var(--var-medium-gray);
+  text-align: justify !important;
+  font-style: normal !important;
+}
+
+/* Author styling */
+.publication .author {
+  font-size: 0.9rem;
+  font-weight: regular;
+  color: var(--var-light-gray);
+}
+
+/* Conference or Journal styling */
+.publication .acronym {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--var-light-gray);
+}
+
+.publication .venue, .year, .doi {
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: var(--var-light-gray);
+}
+
+.publication .separator {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--var-yellow);
+}
+
+a {
+  color: var(--var-light-gray);
+}
+a:hover {
+  color: var(--var-yellow);
+}
+
+/* Adjusted for publication card media (if any) */
+.publication img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
